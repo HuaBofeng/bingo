@@ -12,7 +12,7 @@ const proc = spawn(`node`, [
   '-d',
   '-m',
   '-b',
-  `BING_COOKIE=${process.env.BING_COOKIE || ''}`,
+  `BING_COOKIE=${process.env.BING_COOKIE || '1rn96umi9LVN2NqVGojIqb34rAQEXkhZ2qpckf6YAhOs1ySU'}`,
   '-p',
   process.env.PORT || 8080
 ])
